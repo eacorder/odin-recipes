@@ -1,0 +1,73 @@
+body{
+    margin: 40px;
+}
+
+.title {
+    
+    position: relative; 
+    height: 60vh; 
+    display: flex;
+    align-items: center; 
+    background-color: coral;
+}
+
+.title::before {    
+      content: ""; 
+      background-image: url('https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+}
+
+h1 {
+  padding-left: 100px;
+  position: relative;
+  color: #ffffff;  
+  font-size: 11rem;
+  line-height: 0.9;
+  text-align: center; 
+  text-shadow: 2px 2px black;
+}
+
+ 
+ .list{
+    
+    text-align: center;
+    padding-top: 15px;
+    height: 30vh; 
+     
+ }
+
+li {
+    display: inline-block; 
+    margin-right: 100px;
+    margin-left: 100px;
+    height:fit-content;
+    
+  
+}
+
+li p {
+    font-size: 2vh;
+    text-align: center; 
+    line-height: 0.9; 
+    font-weight: bold;
+  
+}
+
+img {
+    width: 25vh;
+    height: 25vh;  
+    border:2px solid #fff;
+  background: url(img/tiger.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+}
