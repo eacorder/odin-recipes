@@ -1,0 +1,93 @@
+body{
+    margin: 40px;
+    
+}
+
+.title {
+    
+    position: relative; 
+    height: 20vh; 
+    display: flex;
+    align-items: center; 
+    background-color: coral;
+}
+
+.title::before {    
+      content: ""; 
+      background-image: url('https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+}
+
+.title h1 {
+  padding-left: 100px;
+  position: relative;
+  color: #ffffff;  
+  font-size: 6rem;
+  line-height: 0.9;
+  text-align: center; 
+  text-shadow: 2px 2px black;
+}
+
+.content {
+    margin: 50px; 
+}
+
+.images, .list {
+    display: inline-block;
+    font-size: 2vh;
+}
+
+.images img { 
+    width: 80vh;
+    border:2px solid #fff;
+  background: url(img/tiger.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+}
+
+.list {
+    font-size: 2vh;
+    float: right;    
+    margin-right: 150px;
+}
+
+.list p {
+    width: 50vh;
+    word-wrap: break-word;
+}
+
+.images{
+    margin-left: 40px;
+}
+
+.button{
+    float: right;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: coral;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px  #999;
+}
+.button:hover {background-color: darkorange}
+
+.button:active {
+  background-color: darkorange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
